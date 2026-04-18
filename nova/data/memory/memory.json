@@ -1,0 +1,15 @@
+{
+  "user_name": "KK Sir",
+  "created_at": "2026-04-08",
+  "interactions": 0,
+  "last_seen": null,
+  "preferences": {},
+  "reminders": [],
+  "notes": [
+    {
+      "text": "Test note from smoke test",
+      "created": "2026-04-08 19:42:31.110802"
+    }
+  ],
+  "favorite_commands": {}
+}

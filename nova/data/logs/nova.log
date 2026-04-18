@@ -1,0 +1,204 @@
+[2026-04-08 19:42:31] [DEBUG] Memory system initialised.
+[2026-04-08 19:42:32] [DEBUG] No Groq API key set — LLM fallback disabled.
+[2026-04-18 21:03:50] [DEBUG] pyttsx3 TTS engine ready.
+[2026-04-18 21:03:50] [DEBUG] SpeechRecognition STT engine ready.
+[2026-04-18 21:03:50] [DEBUG] No Groq API key set — LLM fallback disabled.
+[2026-04-18 21:04:12] [DEBUG] pyttsx3 TTS engine ready.
+[2026-04-18 21:04:12] [DEBUG] SpeechRecognition STT engine ready.
+[2026-04-18 21:04:12] [DEBUG] No Groq API key set — LLM fallback disabled.
+[2026-04-18 21:04:12] [INFO] NOVA boot sequence initiated...
+[2026-04-18 21:04:13] [DEBUG] Memory system initialised.
+[2026-04-18 21:04:13] [DEBUG] Activity tracker initialised.
+[2026-04-18 21:04:13] [INFO] Background monitor started.
+[2026-04-18 21:04:13] [INFO] Background health monitor running.
+[2026-04-18 21:04:14] [ERROR] Monitor error: cannot access local variable '_already_alerted' where it is not associated with a value
+[2026-04-18 21:07:12] [DEBUG] pyttsx3 TTS engine ready.
+[2026-04-18 21:07:12] [DEBUG] SpeechRecognition STT engine ready.
+[2026-04-18 21:07:12] [DEBUG] No Groq API key set — LLM fallback disabled.
+[2026-04-18 21:07:12] [INFO] NOVA boot sequence initiated...
+[2026-04-18 21:07:12] [DEBUG] Memory system initialised.
+[2026-04-18 21:07:12] [DEBUG] Activity tracker initialised.
+[2026-04-18 21:07:12] [INFO] Background monitor started.
+[2026-04-18 21:07:12] [INFO] Background health monitor running.
+[2026-04-18 21:08:17] [DEBUG] pyttsx3 TTS engine ready.
+[2026-04-18 21:08:17] [DEBUG] SpeechRecognition STT engine ready.
+[2026-04-18 21:08:17] [DEBUG] No Groq API key set — LLM fallback disabled.
+[2026-04-18 21:08:17] [INFO] NOVA boot sequence initiated...
+[2026-04-18 21:08:17] [DEBUG] Memory system initialised.
+[2026-04-18 21:08:17] [DEBUG] Activity tracker initialised.
+[2026-04-18 21:08:17] [INFO] Background monitor started.
+[2026-04-18 21:08:17] [INFO] Background health monitor running.
+[2026-04-18 21:08:18] [WARNING] ALERT: High RAM usage: 87.0%
+[2026-04-18 21:08:18] [ERROR] Monitor error: run loop already started
+[2026-04-18 21:08:18] [INFO] Waiting for wake word: 'hey nova'
+[2026-04-18 21:08:18] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:18] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:18] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:18] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:19] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:19] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:19] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:19] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:19] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:19] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:19] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:19] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:19] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:19] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:20] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:20] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:20] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:20] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:20] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:20] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:20] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:20] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:20] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:20] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:20] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:21] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:21] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:21] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:21] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:21] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:21] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:21] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:21] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:21] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:21] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:21] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:22] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:22] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:22] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:22] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:22] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:22] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:22] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:22] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:22] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:22] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:23] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:23] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:23] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:23] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:23] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:23] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:23] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:23] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:23] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:23] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:24] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:24] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:24] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:24] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:24] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:24] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:24] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:24] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:24] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:24] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:24] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:24] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:25] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:25] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:25] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:25] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:25] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:25] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:25] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:25] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:25] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:25] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:25] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:26] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:26] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:26] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:26] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:26] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:26] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:26] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:26] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:26] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:26] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:26] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:26] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:27] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:27] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:27] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:27] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:27] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:27] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:27] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:27] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:27] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:27] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:27] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:27] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:28] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:28] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:28] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:28] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:28] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:28] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:28] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:28] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:28] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:28] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:28] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:29] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:29] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:29] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:29] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:29] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:29] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:29] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:29] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:29] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:29] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:29] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:29] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:30] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:30] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:30] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:30] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:30] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:30] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:30] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:30] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:30] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:30] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:30] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:31] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:31] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:31] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:31] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:31] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:31] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:31] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:08:31] [ERROR] Unexpected error in main loop: Could not find PyAudio; check installation
+[2026-04-18 21:09:10] [DEBUG] pyttsx3 TTS engine ready.
+[2026-04-18 21:09:10] [WARNING] PyAudio not available: No module named 'pyaudio' — keyboard input fallback.
+[2026-04-18 21:09:11] [DEBUG] No Groq API key set — LLM fallback disabled.
+[2026-04-18 21:09:11] [INFO] NOVA boot sequence initiated...
+[2026-04-18 21:09:11] [WARNING] STT not available. Install SpeechRecognition: pip install SpeechRecognition pyaudio
+[2026-04-18 21:09:11] [INFO] Falling back to KEYBOARD INPUT mode.
+[2026-04-18 21:09:11] [DEBUG] Memory system initialised.
+[2026-04-18 21:09:11] [DEBUG] Activity tracker initialised.
+[2026-04-18 21:09:11] [INFO] Background monitor started.
+[2026-04-18 21:09:11] [INFO] Background health monitor running.
+[2026-04-18 21:09:22] [INFO] Waiting for wake word: 'hey nova'
+[2026-04-18 21:24:43] [WARNING] ALERT: High RAM usage: 90.5%
+[2026-04-18 21:25:14] [WARNING] ALERT: High RAM usage: 91.0%
+[2026-04-18 21:29:22] [WARNING] ALERT: High RAM usage: 86.8%
+[2026-04-18 21:29:53] [WARNING] ALERT: High RAM usage: 89.0%
+[2026-04-18 21:30:25] [WARNING] ALERT: High RAM usage: 89.5%
+[2026-04-18 21:30:56] [WARNING] ALERT: High RAM usage: 86.9%
+[2026-04-18 21:31:27] [WARNING] ALERT: High RAM usage: 87.2%
+[2026-04-18 21:31:58] [WARNING] ALERT: High RAM usage: 86.9%
+[2026-04-18 21:32:29] [WARNING] ALERT: High RAM usage: 88.2%
+[2026-04-18 21:33:00] [WARNING] ALERT: High RAM usage: 86.8%
+[2026-04-18 21:33:31] [WARNING] ALERT: High RAM usage: 87.9%
+[2026-04-18 21:34:03] [WARNING] ALERT: High RAM usage: 87.7%
+[2026-04-18 21:34:34] [WARNING] ALERT: High RAM usage: 86.6%
+[2026-04-18 21:35:05] [WARNING] ALERT: High RAM usage: 85.3%
+[2026-04-18 21:36:38] [WARNING] ALERT: High RAM usage: 85.0%

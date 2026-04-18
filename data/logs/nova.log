@@ -1,0 +1,92 @@
+[2026-04-18 22:53:36] [DEBUG  ] [NOVA] [EventBus] Subscribed <lambda> → 'test'
+[2026-04-18 22:53:41] [INFO   ] [NOVA] Logger OK
+[2026-04-18 22:53:47] [DEBUG  ] [NOVA] Long-term memory loaded.
+[2026-04-18 22:53:47] [INFO   ] [NOVA] Memory manager initialised.
+[2026-04-18 22:53:47] [DEBUG  ] [NOVA] LTM: interaction #1 recorded.
+[2026-04-18 22:53:53] [INFO   ] [NOVA] Command registry loaded: 87 intents across 7 categories.
+[2026-04-18 22:53:59] [DEBUG  ] [NOVA] [Intent] Pattern match: 'get_time' (entity=None)
+[2026-04-18 22:53:59] [DEBUG  ] [NOVA] [Intent] Pattern match: 'get_time' (entity=None)
+[2026-04-18 22:53:59] [DEBUG  ] [NOVA] [Intent] Pattern match: 'open_app' (entity='chrome')
+[2026-04-18 22:53:59] [DEBUG  ] [NOVA] [Intent] Pattern match: 'open_app' (entity='chrome')
+[2026-04-18 22:53:59] [DEBUG  ] [NOVA] [Intent] Pattern match: 'cpu_status' (entity=None)
+[2026-04-18 22:53:59] [DEBUG  ] [NOVA] [Intent] Pattern match: 'cpu_status' (entity=None)
+[2026-04-18 22:53:59] [DEBUG  ] [NOVA] [Intent] Pattern match: 'add_reminder' (entity='to study')
+[2026-04-18 22:53:59] [DEBUG  ] [NOVA] [Intent] Pattern match: 'add_reminder' (entity='to study')
+[2026-04-18 22:53:59] [DEBUG  ] [NOVA] [Intent] Pattern match: 'nova_status' (entity=None)
+[2026-04-18 22:53:59] [DEBUG  ] [NOVA] [Intent] Pattern match: 'nova_status' (entity=None)
+[2026-04-18 22:54:11] [DEBUG  ] [NOVA] [LLM] ollama init failed: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-04-18 22:54:11] [WARNING] [NOVA] No LLM backend available. Using rule-based fallback.
+[2026-04-18 22:54:12] [DEBUG  ] [NOVA] pyttsx3 TTS engine ready.
+[2026-04-18 22:54:12] [WARNING] [NOVA] PyAudio not available: No module named 'pyaudio' — keyboard fallback.
+[2026-04-18 22:54:19] [WARNING] [NOVA] [Alert] [WARNING] High CPU
+[2026-04-18 22:54:57] [INFO   ] [NOVA] Command registry loaded: 87 intents across 7 categories.
+[2026-04-18 22:54:57] [DEBUG  ] [NOVA] Long-term memory loaded.
+[2026-04-18 22:54:57] [INFO   ] [NOVA] Memory manager initialised.
+[2026-04-18 22:55:01] [DEBUG  ] [NOVA] [LLM] ollama init failed: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-04-18 22:55:01] [WARNING] [NOVA] No LLM backend available. Using rule-based fallback.
+[2026-04-18 22:55:01] [DEBUG  ] [NOVA] [Intent] Pattern match: 'get_time' (entity=None)
+[2026-04-18 22:55:01] [INFO   ] [NOVA] [Router] Intent: get_time | entity: None
+[2026-04-18 22:55:01] [DEBUG  ] [NOVA] [Intent] Pattern match: 'cpu_status' (entity=None)
+[2026-04-18 22:55:01] [INFO   ] [NOVA] [Router] Intent: cpu_status | entity: None
+[2026-04-18 22:55:02] [DEBUG  ] [NOVA] [Intent] Pattern match: 'help' (entity=None)
+[2026-04-18 22:55:02] [INFO   ] [NOVA] [Router] Intent: help | entity: None
+[2026-04-18 22:55:02] [DEBUG  ] [NOVA] [Intent] Pattern match: 'exit' (entity=None)
+[2026-04-18 22:55:02] [INFO   ] [NOVA] [Router] Intent: exit | entity: None
+[2026-04-18 22:55:12] [INFO   ] [NOVA] Command registry loaded: 87 intents across 7 categories.
+[2026-04-18 22:55:12] [DEBUG  ] [NOVA] Long-term memory loaded.
+[2026-04-18 22:55:12] [INFO   ] [NOVA] Memory manager initialised.
+[2026-04-18 22:55:16] [DEBUG  ] [NOVA] [LLM] ollama init failed: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-04-18 22:55:16] [WARNING] [NOVA] No LLM backend available. Using rule-based fallback.
+[2026-04-18 22:55:16] [DEBUG  ] [NOVA] [Intent] Pattern match: 'battery_status' (entity=None)
+[2026-04-18 22:55:16] [INFO   ] [NOVA] [Router] Intent: battery_status | entity: None
+[2026-04-18 22:55:16] [DEBUG  ] [NOVA] [Intent] Pattern match: 'open_app' (entity='chrome')
+[2026-04-18 22:55:16] [INFO   ] [NOVA] [Router] Intent: open_app | entity: 'chrome'
+[2026-04-18 22:55:16] [INFO   ] [NOVA] Opened app: chrome
+[2026-04-18 22:55:16] [DEBUG  ] [NOVA] [Intent] Pattern match: 'add_reminder' (entity='to study python')
+[2026-04-18 22:55:16] [INFO   ] [NOVA] [Router] Intent: add_reminder | entity: 'to study python'
+[2026-04-18 22:55:16] [INFO   ] [NOVA] Reminder added: to study python
+[2026-04-18 22:55:16] [DEBUG  ] [NOVA] [Intent] Pattern match: 'show_reminders' (entity=None)
+[2026-04-18 22:55:16] [INFO   ] [NOVA] [Router] Intent: show_reminders | entity: None
+[2026-04-18 22:55:16] [DEBUG  ] [NOVA] [Intent] Pattern match: 'add_note' (entity='this is important')
+[2026-04-18 22:55:16] [INFO   ] [NOVA] [Router] Intent: add_note | entity: 'this is important'
+[2026-04-18 22:55:16] [DEBUG  ] [NOVA] [Intent] Pattern match: 'daily_report' (entity=None)
+[2026-04-18 22:55:16] [INFO   ] [NOVA] [Router] Intent: daily_report | entity: None
+[2026-04-18 22:55:16] [DEBUG  ] [NOVA] [Intent] Pattern match: 'system_report' (entity=None)
+[2026-04-18 22:55:16] [INFO   ] [NOVA] [Router] Intent: system_report | entity: None
+[2026-04-18 22:56:26] [INFO   ] [NOVA] NOVA boot sequence initiated...
+[2026-04-18 22:56:27] [DEBUG  ] [NOVA] pyttsx3 TTS engine ready.
+[2026-04-18 22:56:27] [WARNING] [NOVA] PyAudio not available: No module named 'pyaudio' — keyboard fallback.
+[2026-04-18 22:56:27] [WARNING] [NOVA] STT not available. pip install SpeechRecognition pyaudio
+[2026-04-18 22:56:27] [INFO   ] [NOVA] Falling back to KEYBOARD INPUT mode.
+[2026-04-18 22:56:27] [DEBUG  ] [NOVA] Long-term memory loaded.
+[2026-04-18 22:56:27] [INFO   ] [NOVA] Memory manager initialised.
+[2026-04-18 22:56:27] [DEBUG  ] [NOVA] Created plugin directory: C:\NOVA AI\data\plugins
+[2026-04-18 22:56:27] [INFO   ] [NOVA] Command registry loaded: 87 intents across 7 categories.
+[2026-04-18 22:56:31] [DEBUG  ] [NOVA] [LLM] ollama init failed: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-04-18 22:56:31] [WARNING] [NOVA] No LLM backend available. Using rule-based fallback.
+[2026-04-18 22:56:31] [DEBUG  ] [NOVA] [EventBus] Subscribed _on_alert → 'alert_triggered'
+[2026-04-18 22:56:31] [INFO   ] [NOVA] Background health monitor started.
+[2026-04-18 22:56:32] [WARNING] [NOVA] [Alert] [WARNING] High RAM usage: 88.2%
+[2026-04-18 22:56:43] [INFO   ] [NOVA] Boot complete. NOVA is online.
+[2026-04-18 22:56:43] [INFO   ] [NOVA] Waiting for wake word: 'hey nova'
+[2026-04-18 22:56:43] [INFO   ] [NOVA] Command received: 'what time is it'
+[2026-04-18 22:56:43] [DEBUG  ] [NOVA] [Intent] Pattern match: 'get_time' (entity=None)
+[2026-04-18 22:56:43] [INFO   ] [NOVA] [Router] Intent: get_time | entity: None
+[2026-04-18 22:56:43] [DEBUG  ] [NOVA] LTM: interaction #2 recorded.
+[2026-04-18 22:56:51] [INFO   ] [NOVA] Command received: 'cpu status'
+[2026-04-18 22:56:51] [DEBUG  ] [NOVA] [Intent] Pattern match: 'cpu_status' (entity=None)
+[2026-04-18 22:56:51] [INFO   ] [NOVA] [Router] Intent: cpu_status | entity: None
+[2026-04-18 22:56:52] [DEBUG  ] [NOVA] LTM: interaction #3 recorded.
+[2026-04-18 22:57:03] [INFO   ] [NOVA] Command received: 'tell me about python'
+[2026-04-18 22:57:03] [DEBUG  ] [NOVA] [Intent] No pattern match for: 'tell me about python' → general_conversation
+[2026-04-18 22:57:03] [INFO   ] [NOVA] [Router] Intent: general_conversation | entity: None
+[2026-04-18 22:57:03] [DEBUG  ] [NOVA] LTM: interaction #4 recorded.
+[2026-04-18 22:57:15] [INFO   ] [NOVA] Command received: 'exit'
+[2026-04-18 22:57:15] [DEBUG  ] [NOVA] [Intent] Pattern match: 'exit' (entity=None)
+[2026-04-18 22:57:15] [INFO   ] [NOVA] [Router] Intent: exit | entity: None
+[2026-04-18 22:57:15] [DEBUG  ] [NOVA] LTM: interaction #5 recorded.
+[2026-04-18 22:57:15] [INFO   ] [NOVA] Shutting down NOVA...
+[2026-04-18 22:57:15] [INFO   ] [NOVA] Health monitor stopped.
+[2026-04-18 22:57:15] [INFO   ] [NOVA] Session saved: 4 commands logged.
+[2026-04-18 22:57:15] [INFO   ] [NOVA] Session ended — 4 commands in this session.
+[2026-04-18 22:57:15] [INFO   ] [NOVA] NOVA offline. Goodbye.

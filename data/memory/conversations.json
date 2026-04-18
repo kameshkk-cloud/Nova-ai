@@ -1,0 +1,34 @@
+{
+  "history": [
+    {
+      "time": "2026-04-18T22:53:47.451045",
+      "user": "test input",
+      "nova": "test response",
+      "intent": "test"
+    },
+    {
+      "time": "2026-04-18T22:56:43.714500",
+      "user": "what time is it",
+      "nova": "It is 10:56 PM, KK Sir.",
+      "intent": ""
+    },
+    {
+      "time": "2026-04-18T22:56:52.942850",
+      "user": "cpu status",
+      "nova": "CPU usage is 9.6%.",
+      "intent": ""
+    },
+    {
+      "time": "2026-04-18T22:57:03.296269",
+      "user": "tell me about python",
+      "nova": "I understood: 'tell me about python'. I don't have a specific skill for that yet. Configure an LLM (Groq/OpenAI/Ollama) in settings for smart responses!",
+      "intent": ""
+    },
+    {
+      "time": "2026-04-18T22:57:15.486503",
+      "user": "exit",
+      "nova": "NOVA going offline. Stay productive, KK Sir. Goodbye!",
+      "intent": ""
+    }
+  ]
+}
