@@ -30,6 +30,14 @@
         "general": 4
       },
       "duration_minutes": 0.8
+    },
+    {
+      "date": "2026-04-19",
+      "start_time": "2026-04-19T01:14:07.765296",
+      "end_time": "2026-04-19T01:17:51.813637",
+      "commands": [],
+      "categories": {},
+      "duration_minutes": 3.7
     }
   ]
 }

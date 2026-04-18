@@ -90,3 +90,23 @@
 [2026-04-18 22:57:15] [INFO   ] [NOVA] Session saved: 4 commands logged.
 [2026-04-18 22:57:15] [INFO   ] [NOVA] Session ended — 4 commands in this session.
 [2026-04-18 22:57:15] [INFO   ] [NOVA] NOVA offline. Goodbye.
+[2026-04-19 01:14:07] [INFO   ] [NOVA] NOVA boot sequence initiated...
+[2026-04-19 01:14:08] [DEBUG  ] [NOVA] pyttsx3 TTS engine ready.
+[2026-04-19 01:14:08] [WARNING] [NOVA] PyAudio not available: No module named 'pyaudio' — keyboard fallback.
+[2026-04-19 01:14:08] [WARNING] [NOVA] STT not available. pip install SpeechRecognition pyaudio
+[2026-04-19 01:14:08] [INFO   ] [NOVA] Falling back to KEYBOARD INPUT mode.
+[2026-04-19 01:14:08] [DEBUG  ] [NOVA] Long-term memory loaded.
+[2026-04-19 01:14:08] [INFO   ] [NOVA] Memory manager initialised.
+[2026-04-19 01:14:08] [INFO   ] [NOVA] Command registry loaded: 87 intents across 7 categories.
+[2026-04-19 01:14:12] [DEBUG  ] [NOVA] [LLM] ollama init failed: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-04-19 01:14:12] [WARNING] [NOVA] No LLM backend available. Using rule-based fallback.
+[2026-04-19 01:14:12] [DEBUG  ] [NOVA] [EventBus] Subscribed _on_alert → 'alert_triggered'
+[2026-04-19 01:14:12] [INFO   ] [NOVA] Background health monitor started.
+[2026-04-19 01:14:13] [WARNING] [NOVA] [Alert] [WARNING] High RAM usage: 86.0%
+[2026-04-19 01:14:27] [INFO   ] [NOVA] Boot complete. NOVA is online.
+[2026-04-19 01:14:27] [DEBUG  ] [NOVA] [EventBus] Subscribed _on_backend_alert → 'alert_triggered'
+[2026-04-19 01:17:51] [INFO   ] [NOVA] Shutting down NOVA...
+[2026-04-19 01:17:51] [INFO   ] [NOVA] Health monitor stopped.
+[2026-04-19 01:17:51] [INFO   ] [NOVA] Session saved: 0 commands logged.
+[2026-04-19 01:17:51] [INFO   ] [NOVA] Session ended — 0 commands in this session.
+[2026-04-19 01:17:51] [INFO   ] [NOVA] NOVA offline. Goodbye.
