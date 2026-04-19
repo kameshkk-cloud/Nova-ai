@@ -74,5 +74,15 @@ def cmd_lock(arg: Optional[str], memory) -> CommandResult:
     if _SYSTEM == "Windows":
         subprocess.run(["rundll32", "user32.dll,LockWorkStation"])
     else:
-        subprocess.run(["gnome-screensaver-command", "-l"])
+        # Try multiple Linux lock screen methods
+        for cmd in [
+            ["loginctl", "lock-session"],
+            ["xdg-screensaver", "lock"],
+            ["gnome-screensaver-command", "-l"],
+        ]:
+            try:
+                subprocess.run(cmd, capture_output=True, timeout=3)
+                break
+            except (FileNotFoundError, subprocess.TimeoutExpired):
+                continue
     return CommandResult(response="Screen locked.")

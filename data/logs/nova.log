@@ -110,3 +110,33 @@
 [2026-04-19 01:17:51] [INFO   ] [NOVA] Session saved: 0 commands logged.
 [2026-04-19 01:17:51] [INFO   ] [NOVA] Session ended — 0 commands in this session.
 [2026-04-19 01:17:51] [INFO   ] [NOVA] NOVA offline. Goodbye.
+[2026-04-19 15:21:29] [INFO   ] [NOVA] TTS voice selected: Microsoft David Desktop - English (United States)
+[2026-04-19 15:21:29] [DEBUG  ] [NOVA] pyttsx3 SAPI5 TTS engine ready (JARVIS mode).
+[2026-04-19 15:22:01] [INFO   ] [NOVA] TTS voice selected: Microsoft David Desktop - English (United States)
+[2026-04-19 15:22:01] [DEBUG  ] [NOVA] pyttsx3 SAPI5 TTS engine ready (JARVIS mode).
+[2026-04-19 15:22:47] [INFO   ] [NOVA] TTS voice selected: Microsoft David Desktop - English (United States)
+[2026-04-19 15:22:47] [DEBUG  ] [NOVA] pyttsx3 SAPI5 TTS engine ready (JARVIS mode).
+[2026-04-19 15:22:57] [INFO   ] [NOVA] NOVA boot sequence initiated...
+[2026-04-19 15:22:57] [INFO   ] [NOVA] TTS voice selected: Microsoft David Desktop - English (United States)
+[2026-04-19 15:22:57] [DEBUG  ] [NOVA] pyttsx3 SAPI5 TTS engine ready (JARVIS mode).
+[2026-04-19 15:22:57] [WARNING] [NOVA] PyAudio not available: No module named 'pyaudio' — keyboard fallback.
+[2026-04-19 15:22:57] [WARNING] [NOVA] STT not available. pip install SpeechRecognition pyaudio
+[2026-04-19 15:22:57] [INFO   ] [NOVA] Falling back to KEYBOARD INPUT mode.
+[2026-04-19 15:22:57] [DEBUG  ] [NOVA] Long-term memory loaded.
+[2026-04-19 15:22:57] [INFO   ] [NOVA] Memory manager initialised.
+[2026-04-19 15:22:57] [INFO   ] [NOVA] Command registry loaded: 87 intents across 7 categories.
+[2026-04-19 15:23:01] [DEBUG  ] [NOVA] [LLM] ollama init failed: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-04-19 15:23:01] [WARNING] [NOVA] No LLM backend available. Using rule-based fallback.
+[2026-04-19 15:23:01] [DEBUG  ] [NOVA] [EventBus] Subscribed _on_alert → 'alert_triggered'
+[2026-04-19 15:23:01] [INFO   ] [NOVA] Background health monitor started.
+[2026-04-19 15:23:01] [INFO   ] [NOVA] Boot complete. NOVA is online.
+[2026-04-19 15:23:01] [DEBUG  ] [NOVA] [EventBus] Subscribed _on_backend_alert → 'alert_triggered'
+[2026-04-19 15:23:30] [DEBUG  ] [NOVA] [Intent] No pattern match for: 'hey nova' → general_conversation
+[2026-04-19 15:23:30] [INFO   ] [NOVA] [Router] Intent: general_conversation | entity: None
+[2026-04-19 15:23:30] [DEBUG  ] [NOVA] LTM: interaction #6 recorded.
+[2026-04-19 15:24:36] [WARNING] [NOVA] [Alert] [WARNING] High RAM usage: 85.6%
+[2026-04-19 15:27:42] [WARNING] [NOVA] [Alert] [WARNING] High RAM usage: 85.5%
+[2026-04-19 15:33:56] [INFO   ] [NOVA] TTS voice selected: Microsoft David Desktop - English (United States)
+[2026-04-19 15:33:56] [DEBUG  ] [NOVA] pyttsx3 SAPI5 TTS engine ready (JARVIS mode).
+[2026-04-19 15:45:49] [INFO   ] [NOVA] TTS voice selected: Microsoft David Desktop - English (United States)
+[2026-04-19 15:45:49] [DEBUG  ] [NOVA] pyttsx3 SAPI5 TTS engine ready (JARVIS mode).

@@ -195,7 +195,7 @@ class VoiceControl(QWidget):
 
         if state == "listening":
             self._mic.set_active(True)
-        elif state in ("idle", "speaking"):
+        elif state in ("idle", "speaking", "processing"):
             self._mic.set_active(False)
 
     def set_mic_available(self, available: bool) -> None:

@@ -120,12 +120,7 @@ class ChatPanel(QWidget):
 
     def __init__(self, parent: QWidget | None = None) -> None:
         super().__init__(parent)
-        self.setStyleSheet(f"""
-            QWidget {{
-                {panel_style()}
-                padding: 0;
-            }}
-        """)
+        self.setStyleSheet(panel_style())
 
         layout = QVBoxLayout(self)
         layout.setContentsMargins(12, 12, 12, 12)

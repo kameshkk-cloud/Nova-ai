@@ -70,7 +70,7 @@ def _battery_info() -> dict:
     }
 
 
-def _disk_info(path: str = "C:\\\\" if platform.system() == "Windows" else "/") -> dict:
+def _disk_info(path: str = "C:\\" if platform.system() == "Windows" else "/") -> dict:
     try:
         d = psutil.disk_usage(path)
         return {

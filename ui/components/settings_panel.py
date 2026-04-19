@@ -121,8 +121,8 @@ class SettingsPanel(QWidget):
         layout.addWidget(vm_label)
 
         self._voice_combo = QComboBox()
-        self._voice_combo.addItems(["Calm", "Default", "Energetic", "Robotic", "Deep"])
-        self._voice_combo.setCurrentText("Default")
+        self._voice_combo.addItems(["JARVIS", "Calm", "Energetic", "Alert"])
+        self._voice_combo.setCurrentText("JARVIS")
         self._voice_combo.currentTextChanged.connect(
             lambda t: self.voice_mode_changed.emit(t.lower())
         )

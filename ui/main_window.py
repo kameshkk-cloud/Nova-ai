@@ -323,8 +323,8 @@ class MainWindow(QMainWindow):
         self._settings_panel.voice_mode_changed.connect(b.set_voice_mode)
 
     def _setup_shortcuts(self) -> None:
-        # Space to toggle mic
-        sc_mic = QShortcut(QKeySequence(Qt.Key.Key_Space), self)
+        # Ctrl+M to toggle mic (Space was conflicting with chat input)
+        sc_mic = QShortcut(QKeySequence("Ctrl+M"), self)
         sc_mic.setContext(Qt.ShortcutContext.ApplicationShortcut)
         sc_mic.activated.connect(self._toggle_mic_shortcut)
 
@@ -379,10 +379,6 @@ class MainWindow(QMainWindow):
             self._bridge.stop_listening()
 
     def _toggle_mic_shortcut(self) -> None:
-        # Don't trigger if typing in the chat input
-        focus = QApplication.focusWidget()
-        if focus and focus.__class__.__name__ == "QLineEdit":
-            return
         self._voice_control._toggle()
 
     # ── Overrides ────────────────────────────────────────────────────

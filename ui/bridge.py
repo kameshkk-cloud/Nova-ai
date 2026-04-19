@@ -140,6 +140,9 @@ class NovaBridge(QObject):
         # Active workers (prevent GC)
         self._active_workers: list[QThread] = []
 
+        # Track the active speak worker to prevent overlapping speech
+        self._active_speak_worker: SpeakWorker | None = None
+
         # Stats polling timer
         self._stats_timer = QTimer(self)
         self._stats_timer.setInterval(2500)  # 2.5 seconds
@@ -256,12 +259,22 @@ class NovaBridge(QObject):
         self.state_changed.emit("idle")
 
     def _speak(self, text: str) -> None:
-        """Speak text off the main thread."""
+        """Speak text off the main thread.
+
+        Stops any currently-speaking worker first to prevent audio overlap.
+        """
         if not self._booted or not self._orchestrator:
             return
         if not self._orchestrator._tts.available:
             self.state_changed.emit("idle")
             return
+
+        # Stop previous speech if still running
+        if self._active_speak_worker and self._active_speak_worker.isRunning():
+            try:
+                self._orchestrator._tts.stop()
+            except Exception:
+                pass
 
         self.state_changed.emit("speaking")
 
@@ -269,6 +282,7 @@ class NovaBridge(QObject):
         worker.finished_speaking.connect(lambda: self.state_changed.emit("idle"))
         worker.finished.connect(lambda: self._cleanup_worker(worker))
         self._active_workers.append(worker)
+        self._active_speak_worker = worker
         worker.start()
 
     # ── Voice mode ───────────────────────────────────────────────────
@@ -302,17 +316,27 @@ class NovaBridge(QObject):
     def shutdown(self) -> None:
         """Clean shutdown."""
         self._stats_timer.stop()
+
+        # Shut down TTS engine cleanly (stops its background thread)
+        if self._orchestrator and self._orchestrator._tts:
+            try:
+                self._orchestrator._tts.shutdown()
+            except Exception:
+                pass
+
         if self._orchestrator:
             try:
                 self._orchestrator._shutdown()
             except Exception:
                 pass
+
         # Wait for workers
         for w in self._active_workers:
             if w.isRunning():
                 w.quit()
                 w.wait(2000)
         self._active_workers.clear()
+        self._active_speak_worker = None
 
     def _cleanup_worker(self, worker: QThread) -> None:
         if worker in self._active_workers:

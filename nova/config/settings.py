@@ -17,7 +17,7 @@ import pathlib
 # ─── .env support ────────────────────────────────────────────────────────────
 # python-dotenv is optional — works fine without it.
 try:
-    from dotenv import load_dotenv
+    from dotenv import load_dotenv  # type: ignore[import]
     _env_path = pathlib.Path(__file__).resolve().parents[2] / ".env"
     load_dotenv(_env_path)
 except ImportError:
@@ -56,33 +56,40 @@ ASSISTANT_NAME: str  = _env("NOVA_ASSISTANT_NAME", "NOVA")
 WAKE_WORD: str       = _env("NOVA_WAKE_WORD", "hey nova").lower()
 ACTIVATE_MODE: str   = "activate nova mode"
 
-# ─── VOICE SETTINGS ──────────────────────────────────────────────────────────
-VOICE_RATE: int      = _env_int("NOVA_VOICE_RATE", 175)
+# ─── VOICE SETTINGS (JARVIS-TUNED) ──────────────────────────────────────────
+# Rate 165 = smooth, deliberate delivery like JARVIS. Not too fast, not slow.
+VOICE_RATE: int      = _env_int("NOVA_VOICE_RATE", 165)
 VOICE_VOLUME: float  = _env_float("NOVA_VOICE_VOLUME", 1.0)
 VOICE_GENDER: str    = _env("NOVA_VOICE_GENDER", "male")   # "male" | "female"
 
-# Adaptive voice profiles — NOVA automatically picks the best profile based on
-# time-of-day, alert severity, or explicit user request.
+# JARVIS-style voice profiles — NOVA automatically picks the best profile
+# based on time-of-day, alert severity, or explicit user request.
+# All rates are tuned for smooth, clear delivery without stuttering.
 VOICE_PROFILES: dict = {
+    "jarvis": {
+        "rate": 165,
+        "volume": 1.0,
+        "description": "JARVIS — smooth, authoritative, everyday voice",
+    },
     "calm": {
-        "rate": 140,
-        "volume": 0.75,
-        "description": "Slow and gentle — used late at night or for relaxed mode",
+        "rate": 150,
+        "volume": 0.85,
+        "description": "Slow and gentle — late-night or relaxed mode",
     },
     "default": {
-        "rate": 175,
+        "rate": 165,
         "volume": 1.0,
-        "description": "Balanced everyday voice",
+        "description": "Alias for JARVIS profile",
     },
     "energetic": {
-        "rate": 210,
+        "rate": 180,
         "volume": 1.0,
-        "description": "Fast and punchy — used for alerts or morning greetings",
+        "description": "Upbeat morning voice — clear but brisk",
     },
     "alert": {
-        "rate": 195,
+        "rate": 175,
         "volume": 1.0,
-        "description": "Urgent tone — used for critical system alerts",
+        "description": "Urgent but clear — used for critical alerts",
     },
 }
 

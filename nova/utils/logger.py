@@ -117,10 +117,17 @@ def exception(msg: str, *args, **kwargs) -> None:
 
 def nova_say(label: str, text: str) -> None:
     """Pretty-print NOVA's spoken output to the terminal."""
-    if _rich_available and console is not None:
-        console.print(f"[bold cyan]⬡ {label}:[/bold cyan] {text}")  # type: ignore[union-attr]
-    else:
-        print(f"\n⬡ {label}: {text}")
+    try:
+        if _rich_available and console is not None:
+            console.print(f"[bold cyan]> {label}:[/bold cyan] {text}")  # type: ignore[union-attr]
+        else:
+            print(f"\n> {label}: {text}")
+    except (UnicodeEncodeError, OSError):
+        # Fallback for terminals that can't handle special characters
+        try:
+            print(f"\n> {label}: {text}")
+        except Exception:
+            pass
 
 
 def get_logger(name: str = "NOVA") -> logging.Logger:

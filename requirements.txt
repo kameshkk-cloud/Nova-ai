@@ -1,0 +1,36 @@
+# ─── NOVA AI — Python Dependencies ────────────────────────────
+# Install with:  python -m pip install -r requirements.txt
+# ──────────────────────────────────────────────────────────────
+
+# ── GUI Framework ────────────────────────────────────────────
+PyQt6>=6.5.0
+
+# ── Voice: Text-to-Speech ───────────────────────────────────
+pyttsx3>=2.90
+
+# ── Voice: Speech Recognition ──────────────────────────────
+SpeechRecognition>=3.10.0
+PyAudio>=0.2.14
+
+# ── System Monitoring ──────────────────────────────────────
+psutil>=5.9.0
+
+# ── Configuration ─────────────────────────────────────────
+python-dotenv>=1.0.0
+
+# ── Windows-Only (auto-skipped on Linux/Mac) ──────────────
+# These are needed by pyttsx3 on Windows for SAPI5 support.
+# On Linux, pyttsx3 uses espeak instead (no extra deps).
+comtypes>=1.2.0; sys_platform == "win32"
+pywin32>=305; sys_platform == "win32"
+
+# ── LLM Providers (install what you use) ──────────────────
+# At least ONE is recommended for smart AI responses.
+# Groq (FREE tier, fast inference):
+groq>=0.4.0
+
+# OpenAI (paid):
+# openai>=1.0.0
+
+# Ollama is accessed via HTTP — no pip package needed.
+# Just install Ollama from https://ollama.ai

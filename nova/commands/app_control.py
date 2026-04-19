@@ -140,6 +140,12 @@ def cmd_volume_up(arg: Optional[str], memory) -> CommandResult:
     try:
         if _SYSTEM == "Windows":
             _ps_volume_change(10)
+        else:
+            # Linux: try pactl (PulseAudio) or amixer (ALSA)
+            try:
+                subprocess.run(["pactl", "set-sink-volume", "@DEFAULT_SINK@", "+10%"], capture_output=True)
+            except FileNotFoundError:
+                subprocess.run(["amixer", "set", "Master", "10%+"], capture_output=True)
         return CommandResult(response="Volume increased.")
     except Exception as exc:
         return CommandResult(response=f"Volume control error: {exc}")
@@ -154,6 +160,11 @@ def cmd_volume_down(arg: Optional[str], memory) -> CommandResult:
     try:
         if _SYSTEM == "Windows":
             _ps_volume_change(-10)
+        else:
+            try:
+                subprocess.run(["pactl", "set-sink-volume", "@DEFAULT_SINK@", "-10%"], capture_output=True)
+            except FileNotFoundError:
+                subprocess.run(["amixer", "set", "Master", "10%-"], capture_output=True)
         return CommandResult(response="Volume decreased.")
     except Exception as exc:
         return CommandResult(response=f"Volume control error: {exc}")
@@ -171,6 +182,11 @@ def cmd_mute(arg: Optional[str], memory) -> CommandResult:
                 "powershell", "-Command",
                 "$obj = New-Object -ComObject WScript.Shell; $obj.SendKeys([char]173)"
             ], capture_output=True)
+        else:
+            try:
+                subprocess.run(["pactl", "set-sink-mute", "@DEFAULT_SINK@", "toggle"], capture_output=True)
+            except FileNotFoundError:
+                subprocess.run(["amixer", "set", "Master", "toggle"], capture_output=True)
         return CommandResult(response="System muted.")
     except Exception as exc:
         return CommandResult(response=f"Mute error: {exc}")

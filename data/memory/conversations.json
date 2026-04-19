@@ -29,6 +29,12 @@
       "user": "exit",
       "nova": "NOVA going offline. Stay productive, KK Sir. Goodbye!",
       "intent": ""
+    },
+    {
+      "time": "2026-04-19T15:23:30.458820",
+      "user": "hey nova",
+      "nova": "I understood: 'hey nova'. I don't have a specific skill for that yet. Configure an LLM (Groq/OpenAI/Ollama) in settings for smart responses!",
+      "intent": ""
     }
   ]
 }
